@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w --environment DEBUG"
+  },
+  "devDependencies": {
+    "rollup": "^0.34.10",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-watch": "^2.5.0"
+  }
+}
